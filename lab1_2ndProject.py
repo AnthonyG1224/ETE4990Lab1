@@ -9,7 +9,7 @@ while (Keep_playing == "yes") :
     tie = 0
     print("Press enter to roll dice ")
     input()
-    user_roll = random.randint(1,6) + random.randint(1,6) + random.randint(1,6) + random.randint(1,6) + random.randint(1,6)
+    user_roll = random.randint(1,6) + random.randint(1,6) + random.randint(1,6) + random.randint(1,6) + random.randint(1,6)#
     computer_roll = random.randint(1,6) + random.randint(1,6) + random.randint(1,6) + random.randint(1,6) + random.randint(1,6)
     print(user_roll)
     print(computer_roll)
